@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: rgb(195, 146, 241);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    align-items: center;
+    gap: 15px;
+}
+
+header {
+    background-color: rgb(168, 121, 212);
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid rgba(122, 0, 236, 0.315);
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    font-size: 300%;
+}
+
+button {
+    background-color: rgb(155, 111, 196);
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 2px black;
+    box-shadow: 0px 0px 1px rgba(122, 0, 236, 0.315);
+}
+
+input[type=color] {
+    height: 20px;
+    width: 20px;
+}
+
+.menu {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px black;
+    gap: 3px;
+    align-items: baseline;
+}
+
+.grid-container {
+    border: 1px black solid;
+    height: 500px;
+    width: 500px;
+    display: grid;
+}
+
+.block {
+    border: 1px rgba(0, 0, 0, 0.048) solid;
+    background-color: white;
+    height: auto;
+    width: auto;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sketch</title>
+</head>
+<body>
+    <header>
+        <h1>Sketch</h1>
+            <div class="menu">
+                <span class="slider-container">
+                    <label for="gridcontrol">Grid size</label>
+                    <input type="range" id="slider" name="gridcontrol" min="2" max="100" value="16">
+                    <div class="value-container"><span id="size"></span></div>
+                </span>
+                <span class="buttons">
+                    <button class="black">Black</button>
+                    <button class="rainbow">Rainbow</button>
+                    <button class="color">Pick color: <input class="selector" type="color" value="#ff0000""></button>
+                    <button class="eraser">Eraser</button>
+                </span>
+            </div>
+    </header>
+    <div class="grid-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
